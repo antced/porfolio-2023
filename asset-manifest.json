@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-2023/static/css/main.0881fbda.css",
+    "main.js": "/portfolio-2023/static/js/main.e959cb07.js",
+    "static/media/red2.mp4": "/portfolio-2023/static/media/red2.af282ed2307a10c71742.mp4",
+    "static/media/Anthony_Cedrone_Resume.pdf": "/portfolio-2023/static/media/Anthony_Cedrone_Resume.fce6367b566c2ecf0a0e.pdf",
+    "index.html": "/portfolio-2023/index.html",
+    "main.0881fbda.css.map": "/portfolio-2023/static/css/main.0881fbda.css.map",
+    "main.e959cb07.js.map": "/portfolio-2023/static/js/main.e959cb07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0881fbda.css",
+    "static/js/main.e959cb07.js"
+  ]
+}
