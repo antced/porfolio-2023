@@ -2,7 +2,7 @@
 
 ## Description
 
-https://antced.github.io/first-portfolio/
+https://antced.github.io/portfolio-2023/
 
 This is my first attempt at creating a portfolio using React. The portfolio is unfinished at the moment, but it functions as needed.
 I have not decided on a design theme.
