@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from "emailjs-com"
 // import contact from '../../images/contact6.png'
 // Here we import a helper function that will check if the email is valid
 import { checkMessage, validateEmail } from '../utils/helpers';
@@ -10,7 +11,7 @@ export default function Contact() {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-
+  const form = useRef();
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
     const { target } = e;
@@ -45,22 +46,34 @@ export default function Contact() {
       return;
     }
 
+    emailjs.sendForm(
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
+      form.current,
+      process.env.REACT_APP_USER_ID
+    ).then(
+      result => console.log(result.text),
+      error => console.log(error.text)
+    );
+
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setMessage('');
     setEmail('');
+    setErrorMessage('');
   };
 
   return (
     <div className="main-page">
       {/* <img src={contact} alt="Contact Me" className="pageName"/> */}
-      <form className="form">
+      <form className="form" ref={form}>
       <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
+          className="name-input"
         />
         <input
           value={email}
@@ -68,6 +81,7 @@ export default function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          className="email-input"
         />
         <textarea
           value={message}

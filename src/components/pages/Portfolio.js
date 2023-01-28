@@ -7,32 +7,32 @@ export default function Portfolio() {
             {/* <img src={portfolio} alt="Portfolio Me" className="pageName" /> */}
             <section id="portfolio">
 
-                <div className="port-container">
+                <div className="port-container justify-content-start">
 
-                    <div class="row justify-content-start">
-
-                        <a href="https://antced.github.io/after-afters/" className="col-5 m-2 me-5 project">
-                            After Afters
+                    <div class="row">
+                        
+                        <a href="https://antced.github.io/after-afters/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 me-5 project project1">
+                            after afters
                         </a>
 
-                        <a href="https://blooming-lowlands-22066.herokuapp.com" className="col-5 m-2 project">
-                            Password Tracker
+                        <a href="https://blooming-lowlands-22066.herokuapp.com" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 project project2">
+                            password tracker
                         </a>
 
-                        <a href="https://antced.github.io/weather-dashboard/" className="col-5 m-2 me-5 project">
-                            Weather Dashboard
+                        <a href="https://antced.github.io/weather-dashboard/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 me-5 project project3">
+                            weather dashboard
                         </a>
 
-                        <a href="https://antced-note-taker.herokuapp.com/" className="col-5 m-2 project">
-                            Note Taker
+                        <a href="https://antced-note-taker.herokuapp.com/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 project project4">
+                            note taker
                         </a>
 
-                        <a href="https://antced.github.io/cat_create/" className="col-5 m-2 me-5 project">
-                            Cat Create
+                        <a href="https://antced.github.io/cat_create/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 me-5 project project5">
+                            cat create
                         </a>
 
-                        <a href="https://antced.github.io/rock-paper-scissors/" className="col-5 m-2 project">
-                            RPS
+                        <a href="https://antced.github.io/rock-paper-scissors/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 project project6">
+                            rps
                         </a>
 
                     </div>

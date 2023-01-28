@@ -5,8 +5,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import '../styles/style.css';
-import backgroundVideo from '../videos/red2.mp4'
-// import videoplayback from '../videos/joe.mp4'
+import Pdf from '../documents/Anthony_Cedrone_Resume.pdf'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -29,10 +28,6 @@ export default function PortfolioContainer() {
 
   return (
     <section>
-      <div className="overlay"></div>
-      <video id="video" autoPlay loop muted>
-        <source src={backgroundVideo} type="video/mp4"/>
-      </video>
       <div className="section">
         <h1 id="title" className="text-light d-inline-block">anthony cedrone</h1>
         {/* calls the nav bar tabs with the current page */}
@@ -40,10 +35,13 @@ export default function PortfolioContainer() {
         {/* rendering the page */}
         {renderPage()}
         <div className="icons">
-          <a href="https://github.com/antced"><i class="fa-brands fa-github fa-3x pt-2 pe-2"></i></a>
-          <a href="https://www.linkedin.com/in/anthony-cedrone/"><i class="fa-brands fa-linkedin fa-3x pt-2 pe-2"></i></a>
-          <a href="https://antced.bandcamp.com/album/whats-mine"><i class="fa-brands fa-bandcamp fa-3x pt-2"></i></a>
-          </div>
+          <a href={Pdf} rel="noreferrer" target="_blank">
+          <i className="fa-regular black-icon fa-file fa-3x pt-2 pe-2"></i>
+          </a>
+          <a href="https://github.com/antced"><i class="fa-brands yellow-icon fa-github fa-3x pt-2 pe-2"></i></a>
+          <a href="https://www.linkedin.com/in/anthony-cedrone/"><i class="fa-brands blue-icon fa-linkedin fa-3x pt-2 pe-2"></i></a>
+          <a href="https://antced.bandcamp.com/album/whats-mine"><i class="fa-brands purple-icon fa-bandcamp fa-3x pt-2"></i></a>
+        </div>
       </div>
     </section>
   );
