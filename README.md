@@ -1,16 +1,7 @@
-# Portfolio 2023
+# Anthony Cedrone's Portfolio (Early 2023)
 
 ## Description
 
 https://antced.github.io/portfolio-2023/
 
-This is my first attempt at creating a portfolio using React. The portfolio is unfinished at the moment, but it functions as needed.
-I have not decided on a design theme.
-
-## Usage
-
-Visit the link above and check out some of my other work.
-
-## Credits
-
-Worked on as a project for UPenn's coding bootcamp under the instruction of Leif Hetland.
+Welcome to my portfolio! It's the first iteration of what will be an ever changing, life-long project. Please feel free to click around and check out my work.

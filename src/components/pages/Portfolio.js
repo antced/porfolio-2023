@@ -15,16 +15,16 @@ export default function Portfolio() {
                             after afters
                         </a>
 
-                        <a href="https://blooming-lowlands-22066.herokuapp.com" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 project project2">
-                            password tracker
+                        <a href="https://myfriendlymonster.herokuapp.com/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 project project2">
+                            my friendly monster
                         </a>
 
                         <a href="https://antced.github.io/weather-dashboard/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 me-5 project project3">
                             weather dashboard
                         </a>
 
-                        <a href="https://antced-note-taker.herokuapp.com/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 project project4">
-                            note taker
+                        <a href="https://blooming-lowlands-22066.herokuapp.com/login" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 project project4">
+                            password tracker
                         </a>
 
                         <a href="https://antced.github.io/cat_create/" target="_blank" rel="noreferrer" className="col-12 col-lg-5 m-2 me-5 project project5">
