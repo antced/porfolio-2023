@@ -67,6 +67,7 @@ export default function Contact() {
     <div className="main-page">
       {/* <img src={contact} alt="Contact Me" className="pageName"/> */}
       <form className="form" ref={form}>
+      <p>Email me at <b>accedrone@gmail.com</b> or use the form below.</p>
       <input
           value={name}
           name="name"

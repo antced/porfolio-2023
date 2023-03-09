@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-2023/static/css/main.2690b2ca.css",
-    "main.js": "/portfolio-2023/static/js/main.2605f2a4.js",
+    "main.js": "/portfolio-2023/static/js/main.bc797202.js",
     "static/media/7anim.gif": "/portfolio-2023/static/media/7anim.3d0249a1097dc10a7eb0.gif",
     "static/media/4anim.gif": "/portfolio-2023/static/media/4anim.68adfafc5109f8b0dffd.gif",
     "static/media/5anim.gif": "/portfolio-2023/static/media/5anim.3d15920c7eaadf3e3b70.gif",
@@ -12,16 +12,16 @@
     "static/media/5.gif": "/portfolio-2023/static/media/5.907916847072449c4ebd.gif",
     "static/media/2.gif": "/portfolio-2023/static/media/2.8dd78148d9245a0226ff.gif",
     "static/media/4.gif": "/portfolio-2023/static/media/4.1444bcb1d4fa32e45364.gif",
+    "static/media/Anthony_Cedrone_Resume.pdf": "/portfolio-2023/static/media/Anthony_Cedrone_Resume.6d2783e74ee39dcb3e45.pdf",
     "static/media/1.gif": "/portfolio-2023/static/media/1.21ae61d2cd495d0b90cb.gif",
-    "static/media/Anthony_Cedrone_Resume.pdf": "/portfolio-2023/static/media/Anthony_Cedrone_Resume.fce6367b566c2ecf0a0e.pdf",
     "static/media/6.gif": "/portfolio-2023/static/media/6.087bba17752e4b330260.gif",
     "static/media/3.gif": "/portfolio-2023/static/media/3.eecb2f9ecee093c5419a.gif",
     "index.html": "/portfolio-2023/index.html",
     "main.2690b2ca.css.map": "/portfolio-2023/static/css/main.2690b2ca.css.map",
-    "main.2605f2a4.js.map": "/portfolio-2023/static/js/main.2605f2a4.js.map"
+    "main.bc797202.js.map": "/portfolio-2023/static/js/main.bc797202.js.map"
   },
   "entrypoints": [
     "static/css/main.2690b2ca.css",
-    "static/js/main.2605f2a4.js"
+    "static/js/main.bc797202.js"
   ]
 }
