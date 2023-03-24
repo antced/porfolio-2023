@@ -191,6 +191,12 @@ html {
     text-shadow: 0 0 5px black;
     background-position: -18% 0;
 }
+.project1:hover .white-icon {
+    color: var(--yellow);
+}
+.project1:hover .white-icon:hover {
+    color: var(--white);
+}
 
 .project2:hover {
     color: var(--white);
@@ -198,6 +204,12 @@ html {
     background-blend-mode: darken;
     text-shadow: 0 0 5px black;
     background-position: -18% 0;
+}
+.project2:hover .white-icon {
+    color: var(--yellow);
+}
+.project2:hover .white-icon:hover {
+    color: var(--white);
 }
 
 .project3:hover {
@@ -207,6 +219,12 @@ html {
     text-shadow: 0 0 5px black;
     background-position: -18% 0;
 }
+.project3:hover .white-icon {
+    color: var(--yellow);
+}
+.project3:hover .white-icon:hover {
+    color: var(--white);
+}
 
 .project4:hover {
     color: var(--white);
@@ -214,6 +232,12 @@ html {
     background-blend-mode: darken;
     text-shadow: 0 0 5px black;
     background-position: -18% 0;
+}
+.project4:hover .white-icon {
+    color: var(--yellow);
+}
+.project4:hover .white-icon:hover {
+    color: var(--white);
 }
 
 .project5:hover {
@@ -223,6 +247,12 @@ html {
     text-shadow: 0 0 5px black;
     background-position: -18% 0;
 }
+.project5:hover .white-icon {
+    color: var(--yellow);
+}
+.project5:hover .white-icon:hover {
+    color: var(--white);
+}
 
 .project6:hover {
     color: var(--white);
@@ -230,6 +260,12 @@ html {
     background-blend-mode: difference;
     text-shadow: 0 0 5px black;
     background-position: -18% 0;
+}
+.project6:hover .white-icon {
+    color: var(--yellow);
+}
+.project6:hover .white-icon:hover {
+    color: var(--white);
 }
 
 .project1 {
@@ -336,9 +372,13 @@ html {
 .yellow-icon {
     color: var(--yellow);
 }
-
 .yellow-icon:hover {
     color: var(--black);
+}
+.white-icon {
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    float: right;
 }
 
 .blue-icon {
@@ -409,5 +449,8 @@ html {
     .black-icon {
         display: inline !important;
         color: var(--black);
+    }
+    .white-icon {
+        display: none !important;
     }
 }
